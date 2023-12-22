@@ -6,8 +6,14 @@ let isAlive = true;
 let message = "";
 let messageEl =
 	document.getElementById("message-el");
+let sumEl = document.getElementById("sum-el");
+let cardsEl = document.getElementById("cards-el");
 
 const startGame = () => {
+	// sumEl.textContent += sum;
+	sumEl.textContent = "Sum: " + sum;
+	cardsEl.textContent =
+		"Cards: " + firstCard + " " + secondCard;
 	if (sum <= 20) {
 		message = "Draw a new card?";
 	} else if (sum === 21) {
