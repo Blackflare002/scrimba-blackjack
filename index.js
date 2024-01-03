@@ -8,15 +8,15 @@ let messageEl =
 let sumEl = document.getElementById("sum-el");
 let cardsEl = document.getElementById("cards-el");
 
-let player = {
-	name: "Shane",
-	chips: 145,
-};
+// let player = {
+// 	name: "Shane",
+// 	chips: 145,
+// };
 
-let playerEl =
-	document.getElementById("player-el");
-playerEl.textContent =
-	player.name + ": $" + player.chips;
+// let playerEl =
+// 	document.getElementById("player-el");
+// playerEl.textContent =
+// 	player.name + ": $" + player.chips;
 
 function getRandomCard() {
 	let randomNumber =
